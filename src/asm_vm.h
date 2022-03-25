@@ -1,3 +1,6 @@
+#ifndef ASM_VM_H
+#define ASM_VM_H
+
 namespace asm_code {
 
 
@@ -146,3 +149,4 @@ struct asm_function {
 
 
 }
+#endif

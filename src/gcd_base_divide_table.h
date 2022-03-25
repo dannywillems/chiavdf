@@ -1,3 +1,6 @@
+#ifndef GCD_BASE_DIVIDE_TABLE_H
+#define GCD_BASE_DIVIDE_TABLE_H
+
 const uint64 data_mask=bit_sequence(0, data_size);
 const int carry_size=64-data_size;
 const uint64 carry_mask=bit_sequence(data_size, carry_size);
@@ -230,3 +233,4 @@ void gcd_64(
 
 
 }
+#endif

@@ -1,3 +1,6 @@
+#ifndef ASM_GCD_BASE_DIVIDE_TABLE_H
+#define ASM_GCD_BASE_DIVIDE_TABLE_H
+
 namespace asm_code {
 
 
@@ -188,3 +191,4 @@ void gcd_64_iteration(
 
 
 }
+#endif

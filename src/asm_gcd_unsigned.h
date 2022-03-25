@@ -1,3 +1,6 @@
+#ifndef ASM_GCD_UNSIGNED_H
+#define ASM_GCD_UNSIGNED_H
+
 namespace asm_code {
 
 
@@ -796,3 +799,4 @@ void gcd_unsigned(
 
 
 }
+#endif
